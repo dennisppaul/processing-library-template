@@ -1,0 +1,9 @@
+LIB_NAME=skeleton
+IO_EXAMPLE_PATHS=( examples/basics examples/advanced )
+PROJECT_PACKAGE=de.hfkbremen.skeleton
+# @NOTE(no need to include PROJECT_PACKAGE in SKETCH_IMPORTS)
+SKETCH_IMPORTS=( processing.serial.* )
+BASE_COLOR=59
+ADDITIONAL_LIBS=( extra.jar libjni_wellen_sam.dylib )
+RESOURCES=( hello.raw )
+TOOLS=( midiclock.macos )
